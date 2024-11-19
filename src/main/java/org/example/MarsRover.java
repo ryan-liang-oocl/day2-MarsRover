@@ -15,11 +15,12 @@ public class MarsRover {
     }
 
     public String executeCommand(String command) {
-        switch (command) {
-            case "L":
+        Command cmd = Command.valueOf(command);
+        switch (cmd) {
+            case Command.L:
                 direction = turnLeft(direction);
                 break;
-            case "R":
+            case Command.R:
                 direction = turnRight(direction);
                 break;
             default:
