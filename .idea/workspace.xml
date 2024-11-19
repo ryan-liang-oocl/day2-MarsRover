@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2658c3c8-97a1-486e-aab5-c19556a2c5a8" name="Changes" comment="[MarsRover]test: should face south when orient east and turn right">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MarsRover.java" afterDir="false" />
-    </list>
+    <list default="true" id="2658c3c8-97a1-486e-aab5-c19556a2c5a8" name="Changes" comment="[MarsRover]test: should do nothing when command is invalid" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +49,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.MarsRoverTest.executor": "Run",
+    "Gradle.MarsRoverTest.should_do_nothing_when_command_is_invalid.executor": "Run",
     "Gradle.MarsRoverTest.should_face_east_when_orient_north_and_turn_right.executor": "Run",
     "Gradle.MarsRoverTest.should_face_east_when_orient_south_and_turn_left.executor": "Run",
     "Gradle.MarsRoverTest.should_face_north_when_orient_east_and_turn_left.executor": "Run",
@@ -100,6 +97,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;org.example.MarsRoverTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MarsRoverTest.should_do_nothing_when_command_is_invalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.MarsRoverTest.should_do_nothing_when_command_is_invalid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,30 +179,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MarsRoverTest.should_face_north_when_orient_west_and_turn_right" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.MarsRoverTest.should_face_north_when_orient_west_and_turn_right&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="MarsRoverTest.should_face_south_when_orient_east_and_turn_right" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -209,10 +206,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MarsRoverTest" />
+        <item itemvalue="Gradle.MarsRoverTest.should_do_nothing_when_command_is_invalid" />
         <item itemvalue="Gradle.MarsRoverTest.should_face_south_when_orient_east_and_turn_right" />
         <item itemvalue="Gradle.MarsRoverTest.should_face_north_when_orient_east_and_turn_left" />
         <item itemvalue="Gradle.MarsRoverTest.should_face_east_when_orient_south_and_turn_left" />
-        <item itemvalue="Gradle.MarsRoverTest.should_face_north_when_orient_west_and_turn_right" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731999412607</updated>
-      <workItem from="1731999413630" duration="5123000" />
+      <workItem from="1731999413630" duration="6404000" />
     </task>
     <task id="LOCAL-00001" summary="[MarsRover]test: should initialize mar rover">
       <option name="closed" value="true" />
@@ -305,7 +302,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732003350532</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[MarsRover]refactor: turn direction into Enum">
+      <option name="closed" value="true" />
+      <created>1732004682340</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732004682340</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[MarsRover]refactor: turn command into Enum">
+      <option name="closed" value="true" />
+      <created>1732005308221</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732005308221</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[MarsRover]test: should do nothing when command is invalid">
+      <option name="closed" value="true" />
+      <created>1732005634750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732005634750</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +353,10 @@
     <MESSAGE value="[MarsRover]test: should face west when orient south and turn right" />
     <MESSAGE value="[MarsRover]test: should face north when orient east and turn left" />
     <MESSAGE value="[MarsRover]test: should face south when orient east and turn right" />
-    <option name="LAST_COMMIT_MESSAGE" value="[MarsRover]test: should face south when orient east and turn right" />
+    <MESSAGE value="[MarsRover]refactor: turn direction into Enum" />
+    <MESSAGE value="[MarsRover]refactor: turn command into Enum" />
+    <MESSAGE value="[MarsRover]test: should do nothing when command is invalid" />
+    <option name="LAST_COMMIT_MESSAGE" value="[MarsRover]test: should do nothing when command is invalid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

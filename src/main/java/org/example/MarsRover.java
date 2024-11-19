@@ -2,7 +2,8 @@ package org.example;
 
 
 public class MarsRover {
-    private String status;
+    private int x;
+    private int y;
 
     private Direction direction;
 
@@ -11,7 +12,7 @@ public class MarsRover {
     }
 
     public String showStatus() {
-        return "0:0:" + direction;
+        return String.format("%d:%d:%s", x, y, direction);
     }
 
     public String executeCommand(String command) {
@@ -25,6 +26,9 @@ public class MarsRover {
                 break;
             case Command.R:
                 direction = turnRight(direction);
+                break;
+            case Command.M:
+                moveForward();
                 break;
             default:
                 break;
@@ -57,5 +61,14 @@ public class MarsRover {
             case S -> Direction.W;
             case W -> Direction.N;
         };
+    }
+
+    private void moveForward() {
+        switch (direction) {
+            case N -> y++;
+            case S -> y--;
+            case E -> x++;
+            case W -> x--;
+        }
     }
 }
