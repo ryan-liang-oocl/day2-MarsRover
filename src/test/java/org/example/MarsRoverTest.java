@@ -79,6 +79,13 @@ public class MarsRoverTest {
         assertEquals("0:0:S", response);
     }
 
+    @Test
+    public void should_do_nothing_when_command_is_invalid() {
+        MarsRover rover = new MarsRover();
+        String response = rover.executeCommand("X");
+        assertEquals("0:0:N", response);
+    }
+
 
 
 

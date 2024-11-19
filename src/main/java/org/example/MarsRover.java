@@ -15,6 +15,9 @@ public class MarsRover {
     }
 
     public String executeCommand(String command) {
+        if (!isValidCommand(command)) {
+            return showStatus();
+        }
         Command cmd = Command.valueOf(command);
         switch (cmd) {
             case Command.L:
@@ -27,6 +30,15 @@ public class MarsRover {
                 break;
         }
         return showStatus();
+    }
+
+    public boolean isValidCommand(String command) {
+        try {
+            Command.valueOf(command);
+            return true;
+        } catch (IllegalArgumentException e) {
+            return false;
+        }
     }
 
     private Direction turnLeft(Direction currentDirection) {
