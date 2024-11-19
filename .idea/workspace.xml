@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2658c3c8-97a1-486e-aab5-c19556a2c5a8" name="Changes" comment="[MarsRover]test: should return correction when orient north and execute commands" />
+    <list default="true" id="2658c3c8-97a1-486e-aab5-c19556a2c5a8" name="Changes" comment="[MarsRover]factor: remove Main class and unused import">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +93,7 @@
       <recent name="D:\project\tw\MarsRover\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MarsRoverTest.should_return_correction_when_orient_north_and_execute_commands">
+  <component name="RunManager" selected="Gradle.MarsRoverTest">
     <configuration name="MarsRoverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MarsRoverTest" />
         <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_north_and_execute_commands" />
         <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_east_and_move_backward" />
         <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_south_and_move_backward" />
         <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_west_and_move_backward" />
-        <item itemvalue="Gradle.MarsRoverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +239,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731999412607</updated>
-      <workItem from="1731999413630" duration="8557000" />
+      <workItem from="1731999413630" duration="9172000" />
     </task>
     <task id="LOCAL-00001" summary="[MarsRover]test: should initialize mar rover">
       <option name="closed" value="true" />
@@ -407,7 +409,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732008000380</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[MarsRover]factor: remove ';' in Enum">
+      <option name="closed" value="true" />
+      <created>1732008179017</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1732008179017</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[MarsRover]factor: remove Main class and unused import">
+      <option name="closed" value="true" />
+      <created>1732008293147</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732008293147</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,17 +464,8 @@
     <MESSAGE value="[MarsRover]test: should return correction when orient south and move backward" />
     <MESSAGE value="[MarsRover]test: should return correction when orient east and move backward" />
     <MESSAGE value="[MarsRover]test: should return correction when orient north and execute commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="[MarsRover]test: should return correction when orient north and execute commands" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="[MarsRover]factor: remove ';' in Enum" />
+    <MESSAGE value="[MarsRover]factor: remove Main class and unused import" />
+    <option name="LAST_COMMIT_MESSAGE" value="[MarsRover]factor: remove Main class and unused import" />
   </component>
 </project>
