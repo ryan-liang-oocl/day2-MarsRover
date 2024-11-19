@@ -142,5 +142,13 @@ public class MarsRoverTest {
         assertEquals("0:1:S", response);
     }
 
+    @Test
+    public void should_return_correction_when_orient_east_and_move_backward() {
+        MarsRover rover = new MarsRover();
+        rover.executeCommand("R");
+        String response = rover.executeCommand("B");
+        assertEquals("-1:0:E", response);
+    }
+
 
 }
