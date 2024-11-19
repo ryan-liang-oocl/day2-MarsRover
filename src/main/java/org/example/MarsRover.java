@@ -1,6 +1,8 @@
 package org.example;
 
 
+import java.util.Arrays;
+
 public class MarsRover {
     private int x;
     private int y;
@@ -36,6 +38,11 @@ public class MarsRover {
             default:
                 break;
         }
+        return showStatus();
+    }
+
+    public String executeCommands(String[] commands) {
+        Arrays.stream(commands).forEach(this::executeCommand);
         return showStatus();
     }
 

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2658c3c8-97a1-486e-aab5-c19556a2c5a8" name="Changes" comment="[MarsRover]test: should do nothing when command is invalid" />
+    <list default="true" id="2658c3c8-97a1-486e-aab5-c19556a2c5a8" name="Changes" comment="[MarsRover]test: should return correction when orient south and move backward">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MarsRoverTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +60,13 @@
     "Gradle.MarsRoverTest.should_face_south_when_orient_north_and_turn_left_two_times.executor": "Run",
     "Gradle.MarsRoverTest.should_face_west_when_orient_north_and_turn_left.executor": "Run",
     "Gradle.MarsRoverTest.should_initialize_mars_rover.executor": "Run",
+    "Gradle.MarsRoverTest.should_return_correction_when_orient_east_and_move_forward.executor": "Run",
+    "Gradle.MarsRoverTest.should_return_correction_when_orient_north_and_move_backward.executor": "Run",
+    "Gradle.MarsRoverTest.should_return_correction_when_orient_north_move_forward.executor": "Run",
+    "Gradle.MarsRoverTest.should_return_correction_when_orient_south_and_move_backward.executor": "Run",
+    "Gradle.MarsRoverTest.should_return_correction_when_orient_south_and_move_forward.executor": "Run",
+    "Gradle.MarsRoverTest.should_return_correction_when_orient_west_and_move_backward.executor": "Run",
+    "Gradle.MarsRoverTest.should_return_correction_when_orient_west_and_move_forward.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -82,7 +91,7 @@
       <recent name="D:\project\tw\MarsRover\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MarsRoverTest">
+  <component name="RunManager" selected="Gradle.MarsRoverTest.should_return_correction_when_orient_south_and_move_backward">
     <configuration name="MarsRoverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -107,7 +116,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MarsRoverTest.should_do_nothing_when_command_is_invalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MarsRoverTest.should_return_correction_when_orient_east_and_move_forward" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +129,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.MarsRoverTest.should_do_nothing_when_command_is_invalid&quot;" />
+            <option value="&quot;org.example.MarsRoverTest.should_return_correction_when_orient_east_and_move_forward&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +140,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MarsRoverTest.should_face_east_when_orient_south_and_turn_left" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MarsRoverTest.should_return_correction_when_orient_north_and_move_backward" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +153,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.MarsRoverTest.should_face_east_when_orient_south_and_turn_left&quot;" />
+            <option value="&quot;org.example.MarsRoverTest.should_return_correction_when_orient_north_and_move_backward&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +164,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MarsRoverTest.should_face_north_when_orient_east_and_turn_left" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MarsRoverTest.should_return_correction_when_orient_south_and_move_backward" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +177,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.MarsRoverTest.should_face_north_when_orient_east_and_turn_left&quot;" />
+            <option value="&quot;org.example.MarsRoverTest.should_return_correction_when_orient_south_and_move_backward&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -179,7 +188,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MarsRoverTest.should_face_south_when_orient_east_and_turn_right" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MarsRoverTest.should_return_correction_when_orient_west_and_move_backward" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -192,7 +201,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.MarsRoverTest.should_face_south_when_orient_east_and_turn_right&quot;" />
+            <option value="&quot;org.example.MarsRoverTest.should_return_correction_when_orient_west_and_move_backward&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -205,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_south_and_move_backward" />
+        <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_west_and_move_backward" />
         <item itemvalue="Gradle.MarsRoverTest" />
-        <item itemvalue="Gradle.MarsRoverTest.should_do_nothing_when_command_is_invalid" />
-        <item itemvalue="Gradle.MarsRoverTest.should_face_south_when_orient_east_and_turn_right" />
-        <item itemvalue="Gradle.MarsRoverTest.should_face_north_when_orient_east_and_turn_left" />
-        <item itemvalue="Gradle.MarsRoverTest.should_face_east_when_orient_south_and_turn_left" />
+        <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_north_and_move_backward" />
+        <item itemvalue="Gradle.MarsRoverTest.should_return_correction_when_orient_east_and_move_forward" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +237,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731999412607</updated>
-      <workItem from="1731999413630" duration="6404000" />
+      <workItem from="1731999413630" duration="8176000" />
     </task>
     <task id="LOCAL-00001" summary="[MarsRover]test: should initialize mar rover">
       <option name="closed" value="true" />
@@ -326,7 +335,63 @@
       <option name="project" value="LOCAL" />
       <updated>1732005634750</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[MarsRover]test: should return correction when orient north and move forward">
+      <option name="closed" value="true" />
+      <created>1732006902552</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732006902552</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[MarsRover]test: should return correction when orient west and move forward">
+      <option name="closed" value="true" />
+      <created>1732006972585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732006972585</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[MarsRover]test: should return correction when orient south and move forward">
+      <option name="closed" value="true" />
+      <created>1732007005159</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732007005159</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[MarsRover]test: should return correction when orient east and move forward">
+      <option name="closed" value="true" />
+      <created>1732007027409</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732007027409</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[MarsRover]test: should return correction when orient north and move backward">
+      <option name="closed" value="true" />
+      <created>1732007524490</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732007524490</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[MarsRover]test: should return correction when orient west and move backward">
+      <option name="closed" value="true" />
+      <created>1732007595645</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732007595645</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[MarsRover]test: should return correction when orient south and move backward">
+      <option name="closed" value="true" />
+      <created>1732007620027</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732007620027</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +421,14 @@
     <MESSAGE value="[MarsRover]refactor: turn direction into Enum" />
     <MESSAGE value="[MarsRover]refactor: turn command into Enum" />
     <MESSAGE value="[MarsRover]test: should do nothing when command is invalid" />
-    <option name="LAST_COMMIT_MESSAGE" value="[MarsRover]test: should do nothing when command is invalid" />
+    <MESSAGE value="[MarsRover]test: should return correction when orient north and move forward" />
+    <MESSAGE value="[MarsRover]test: should return correction when orient west and move forward" />
+    <MESSAGE value="[MarsRover]test: should return correction when orient south and move forward" />
+    <MESSAGE value="[MarsRover]test: should return correction when orient east and move forward" />
+    <MESSAGE value="[MarsRover]test: should return correction when orient north and move backward" />
+    <MESSAGE value="[MarsRover]test: should return correction when orient west and move backward" />
+    <MESSAGE value="[MarsRover]test: should return correction when orient south and move backward" />
+    <option name="LAST_COMMIT_MESSAGE" value="[MarsRover]test: should return correction when orient south and move backward" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
