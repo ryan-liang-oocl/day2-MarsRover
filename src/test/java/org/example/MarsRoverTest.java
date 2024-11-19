@@ -3,8 +3,6 @@ package org.example;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
 public class MarsRoverTest {
     @Test
     public void  should_initialize_mars_rover() {
