@@ -93,5 +93,13 @@ public class MarsRoverTest {
         assertEquals("0:1:N", response);
     }
 
+    @Test
+    public void should_return_correction_when_orient_west_and_move_forward() {
+        MarsRover rover = new MarsRover();
+        rover.executeCommand("L");
+        String response = rover.executeCommand("M");
+        assertEquals("-1:0:W", response);
+    }
+
 
 }
