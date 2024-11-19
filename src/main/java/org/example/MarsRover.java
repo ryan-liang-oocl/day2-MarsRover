@@ -30,6 +30,9 @@ public class MarsRover {
             case Command.M:
                 moveForward();
                 break;
+            case Command.B:
+                moveBackward();
+                break;
             default:
                 break;
         }
@@ -69,6 +72,15 @@ public class MarsRover {
             case S -> y--;
             case E -> x++;
             case W -> x--;
+        }
+    }
+
+    private void moveBackward() {
+        switch (direction) {
+            case N -> y--;
+            case S -> y++;
+            case E -> x--;
+            case W -> x++;
         }
     }
 }

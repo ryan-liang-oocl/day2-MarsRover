@@ -1,7 +1,7 @@
 package org.example;
 
 public enum Command {
-    L, R, M;
+    L, R, M, B;
 
 
 }
