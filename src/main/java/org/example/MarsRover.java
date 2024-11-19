@@ -4,10 +4,10 @@ package org.example;
 public class MarsRover {
     private String status;
 
-    private String direction;
+    private Direction direction;
 
     public MarsRover() {
-        this.direction = "N";
+        this.direction = Direction.N;
     }
 
     public String showStatus() {
@@ -22,27 +22,27 @@ public class MarsRover {
             case "R":
                 direction = turnRight(direction);
                 break;
+            default:
+                break;
         }
         return showStatus();
     }
 
-    private String turnLeft(String currentDirection) {
+    private Direction turnLeft(Direction currentDirection) {
         return switch (currentDirection) {
-            case "N" -> "W";
-            case "W" -> "S";
-            case "S" -> "E";
-            case "E" -> "N";
-            default -> currentDirection;
+            case N -> Direction.W;
+            case W -> Direction.S;
+            case S -> Direction.E;
+            case E -> Direction.N;
         };
     }
 
-    private String turnRight(String currentDirection) {
+    private Direction turnRight(Direction currentDirection) {
         return switch (currentDirection) {
-            case "N" -> "E";
-            case "E" -> "S";
-            case "S" -> "W";
-            case "W" -> "N";
-            default -> currentDirection;
+            case N -> Direction.E;
+            case E -> Direction.S;
+            case S -> Direction.W;
+            case W -> Direction.N;
         };
     }
 }
